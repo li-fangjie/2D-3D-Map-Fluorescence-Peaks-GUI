@@ -1,0 +1,12 @@
+name: 2D-3D-map-gui       # change the name as you like
+channels:
+  - conda-forge            # conda-forge has the freshest builds of PyQt, OpenCV, etc.
+  - defaults
+dependencies:
+  - python=3.11            # pin a version you’re comfortable with
+  - numpy
+  - opencv                 # provides the cv2 module
+  - tifffile
+  - pyqt                   # PyQt5 bindings
+  - pyqtgraph
+  - scipy                  # gives you scipy.ndimage.maximum_filter
